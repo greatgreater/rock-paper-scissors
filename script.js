@@ -81,8 +81,8 @@ let game = (rounds) => {
         {
             playerSelection = prompt("What is your choice?").toLowerCase();
             if (playerSelection === "rock" || playerSelection === "paper"
-            || playerSelection === "scissors")
-                validSelection = 1;
+                || playerSelection === "scissors")
+                    validSelection = 1;
             else
                 alert("Invalid choice! Try again.")
         }
